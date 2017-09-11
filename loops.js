@@ -10,6 +10,6 @@ function maybeTrue() {
 function doWhileLoop(array){
   do {
     console.log(array.pop())
-  } (array.length > 0 && maybeTrue());
+  }  while (array.length > 0 && maybeTrue());
   return array
 }
