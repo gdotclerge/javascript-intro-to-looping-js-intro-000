@@ -8,7 +8,7 @@ function maybeTrue() {
 }
 
 function doWhileLoop(array){
-  do { 
+  do {
     array.pop()
   } (array.length > 0 && maybeTrue());
   return array
