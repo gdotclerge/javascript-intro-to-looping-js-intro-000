@@ -9,7 +9,7 @@ function maybeTrue() {
 
 function doWhileLoop(array){
   do {
-    array.pop()
+    console.log(array.pop())
   } (array.length > 0 && maybeTrue());
   return array
 }
